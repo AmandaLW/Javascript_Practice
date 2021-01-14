@@ -36,9 +36,6 @@ button{
     margin: 5px;
 }
 
-.buttons:hover{
-    color: cadetblue;
-}
 form{
     width: 90%;
     margin: 5px;

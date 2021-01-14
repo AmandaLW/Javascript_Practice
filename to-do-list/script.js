@@ -1,8 +1,10 @@
 function addItem(){
-    var h1 = document.createElement('h1');
-    var textAnser = document.createTextNode( "You are days old!");
-    h1.setAttribute('id', 'ageInDays');
-    h1.appendChild(textAnser);
-    document.getElementById('incomplete tasks').appendChild(h1);
+    //var taskInput=document.getElementById("new-task");//Add a new task.
+    var taskInput = document.getElementById('new-task').value;
+    var listItem = document.createElement('li');
+    var textAnser = document.createTextNode(taskInput);
+    listItem.setAttribute('id', 'ageInDays');
+    listItem.appendChild(textAnser);
+    document.getElementById('incomplete tasks').appendChild(listItem);
 
 }
